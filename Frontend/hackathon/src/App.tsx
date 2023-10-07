@@ -1,11 +1,20 @@
 import React from 'react';
-import logo from './logo.svg';
+
 import './App.css';
+
+import { AllRoutes } from './Components/AllRoutes';
+import { ChatUI } from './Pages/ChatGptUI';
+// import { Footer } from './Components/Footer';
 
 function App() {
   return (
-    <div className="App bg-red-300">
-     <h1>hello</h1>
+    <div className="App w-full">
+    
+   
+   <AllRoutes/>
+   
+  
+ 
     </div>
   );
 }
